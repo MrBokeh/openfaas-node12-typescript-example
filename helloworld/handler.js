@@ -38,7 +38,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 var handler = function (event, context, cb) { return __awaiter(void 0, void 0, void 0, function () {
     return __generator(this, function (_a) {
         return [2, context.status(200).succeed({
-                'result': '👋 hello world! 👋'
+                'result': event.body
             })];
     });
 }); };

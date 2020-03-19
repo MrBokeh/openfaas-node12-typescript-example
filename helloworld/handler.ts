@@ -1,6 +1,6 @@
-const handler = async (event, context, cb?) => {
+const handler = async (event: any, context: any, cb?: any) => {
   return context.status(200).succeed({
-    'result': '👋 hello world! 👋'
+    'result': event.body
   });
 };
 export = handler;
