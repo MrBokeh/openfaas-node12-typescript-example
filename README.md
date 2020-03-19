@@ -2,6 +2,7 @@
 
 ### Installation ###
 ```
+npm i -g typescript
 cd helloworld
 npm i
 ```
